@@ -1,0 +1,39 @@
+				+-+-+-+-+-+-+ +-+-+-+-+-+-+
+    			|D|y|s|o|n|s| |G|a|l|a|x|y|
+				+-+-+-+-+-+-+ +-+-+-+-+-+-+
+					Dyson Sphere Program
+						  MitoG
+____________________________________________________________
+Dysons Galaxy brings some more customization to the galaxy
+creation.
+
+Don't like the distance stars have between them ?
+Change it!
+Don't like that you NEED 32 stars but can only HAVE 64 ?
+Change it!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+V1.0 Main Release:
+Able to change the arbitrary limit of minimum 32 stars and
+maximum 64 stars.
+Able to change the minimum distance stars have to have
+between them.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+At the moment the game has to be restarted when you make a
+change to the settings via the SHIFT+F10 UMF Menu.
+
+When changing the Star count settings you have to restart it
+before changes take effect.
+
+When changing the distance setting the changes take effect
+immediatly. So you can start a game but have to manually save
+and restart the game then for auto-saving to be enabled again.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+For suggestions and bug reports please feel free to hit me up
+on:
+
+Reddit -> u/MitoG
+Twitter -> MitoGaterau
