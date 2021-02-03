@@ -5,5 +5,5 @@ Mod for the game [Dyson Sphere Program](https://store.steampowered.com/app/13665
 # Build
 
 - Have the umodframework installed for the game
-- Change the paths in GamePaths.xml so they point the the games installation
+- Change the paths in [GamePaths.xml](GamePaths.xml) so they point the the games installation
 - Build
