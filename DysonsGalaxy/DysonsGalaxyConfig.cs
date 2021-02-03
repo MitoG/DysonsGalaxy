@@ -32,7 +32,7 @@ namespace DysonsGalaxy
                     cfg.Read("LoadPriority", new UMFConfigString("Normal"));
                     cfg.Write("MinVersion", new UMFConfigString("0.53.0"));
                     cfg.Write("MaxVersion", new UMFConfigString("0.54.99999.99999")); //This will prevent the mod from being loaded after the next major UMF release
-                    cfg.Write("UpdateURL", new UMFConfigString(""));
+                    cfg.Write("UpdateURL", new UMFConfigString("https://umodframework.com/updatemod?id=27"));
                     cfg.Write("ConfigVersion", new UMFConfigString(configVersion));
 
                     DysonsGalaxy.Log("Finished UMF Settings.");

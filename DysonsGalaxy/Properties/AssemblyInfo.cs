@@ -6,8 +6,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("A UMF Mod(umodframework.com) for Dyson Sphere Program")]
 [assembly: AssemblyCompany("MitoG")] //Set this to your name/nickname and/or website
 [assembly: AssemblyCopyright("© 2019 MitoG. All rights reserved.")] //Set this to your copyright name.
-[assembly: AssemblyVersion("1.0")] //Set this to the version of your mod.
-[assembly: AssemblyFileVersion("1.0")] //Set this to the version of your mod.
+[assembly: AssemblyVersion("1.0.1")] //Set this to the version of your mod.
+[assembly: AssemblyFileVersion("1.0.1")] //Set this to the version of your mod.
 
 [assembly: ComVisible(false)]
 [assembly: Guid("1da31cec-1708-45f3-9933-d97e6a0a7ee3")]
