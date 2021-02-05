@@ -5,10 +5,11 @@ namespace DysonsGalaxy
 {
     public class DysonsGalaxyConfig
     {
-        private static readonly string configVersion = "1.2";
+        private static readonly string configVersion = "1.3";
 
         //Add your config vars here.
         public static bool Logging;
+        public static bool SkipPrologue;
         public static int MinStarCount;
         public static int MaxStarCount;
         public static double MinStarDistance;
@@ -41,6 +42,9 @@ namespace DysonsGalaxy
                     Logging = cfg.Read("EnableLogging", new UMFConfigBool(false, false, false),
                         "This will enable logging to [GameDirectory]/uModFramework/Logs/DysonsGalaxy.log.",
                         "Warning: This can bloat the log file. Please only enable it if you encounter issues with this mod or suspect this mod of being the cause of issues with the game.");
+
+                    SkipPrologue = cfg.Read("SkipPrologue", new UMFConfigBool(true, false, false),
+                        "Enable this to skip the prologue when you start a new game.");
 
                     MinStarCount = cfg.Read("MinStarCount", new UMFConfigInt(32, 5, 32, 32, true),
                         "Maximum stars that can be created when starting a new game. (32 = default)",

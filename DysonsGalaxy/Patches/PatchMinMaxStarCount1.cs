@@ -6,16 +6,16 @@ namespace DysonsGalaxy.Patches
 {
     [HarmonyPatch(typeof(UIGalaxySelect))]
     [HarmonyPatch("_OnOpen")]
-    public static class Patch_MinMaxStarCount1
+    public static class PatchMinMaxStarCount1
     {
         /// <summary>
         /// Here I just attach the Postfix to the _OnOpen method in UIGalaxySelect to overwrite the limits on the star count slider.
         /// Sadly the sliders are not named so we have to select the correct slider based on the maximum value it can hold.
         /// </summary>
-        /// <param name="__instance"></param>
-        public static void Postfix(ref UIGalaxySelect __instance)
+        /// <param name="instance"></param>
+        public static void Postfix(ref UIGalaxySelect instance)
         {
-            foreach (var child in __instance.transform.GetComponentsInChildren<Slider>())
+            foreach (var child in instance.transform.GetComponentsInChildren<Slider>())
             {
                 DysonsGalaxy.Log($"Setting min star count to {DysonsGalaxyConfig.MinStarCount}");
                 DysonsGalaxy.Log($"Setting max star count to {DysonsGalaxyConfig.MaxStarCount}");

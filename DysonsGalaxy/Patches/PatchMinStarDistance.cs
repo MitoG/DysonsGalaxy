@@ -4,7 +4,7 @@ namespace DysonsGalaxy.Patches
 {
     [HarmonyPatch(typeof(UniverseGen))]
     [HarmonyPatch("GenerateTempPoses")]
-    static class Patch_MinStarDistance
+    static class PatchMinStarDistance
     {
         /// <summary>
         /// This interestingly was the easiest part.

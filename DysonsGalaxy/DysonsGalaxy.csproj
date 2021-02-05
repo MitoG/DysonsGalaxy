@@ -57,6 +57,8 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>F:\Games\Steam\steamapps\common\Dyson Sphere Program\DSPGAME_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+      <SpecificVersion>false</SpecificVersion>
     </Reference>
   </ItemGroup>
   <ItemGroup>

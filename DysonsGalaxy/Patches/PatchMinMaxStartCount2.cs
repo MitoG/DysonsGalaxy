@@ -8,7 +8,7 @@ namespace DysonsGalaxy.Patches
 {
     [HarmonyPatch(typeof(UIGalaxySelect))]
     [HarmonyPatch("OnStarCountSliderValueChange")]
-    public class Patch_MinMaxStartCount2
+    public class PatchMinMaxStartCount2
     {
         /// <summary>
         /// If I could I would paste the corresponding IL code here, but that would be illegal.

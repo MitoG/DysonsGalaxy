@@ -25,6 +25,11 @@ between them.
 V1.0.1
 Added uModFramework UpdateUrl
 
+>>>>>>>>>>>>
+
+V1.0.3
+Added option to skip the prologue at the start of a new game
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 At the moment the game has to be restarted when you make a
 change to the settings via the SHIFT+F10 UMF Menu.
