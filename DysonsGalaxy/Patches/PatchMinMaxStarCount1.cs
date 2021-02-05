@@ -13,9 +13,9 @@ namespace DysonsGalaxy.Patches
         /// Sadly the sliders are not named so we have to select the correct slider based on the maximum value it can hold.
         /// </summary>
         /// <param name="instance"></param>
-        public static void Postfix(ref UIGalaxySelect instance)
+        public static void Postfix(ref UIGalaxySelect __instance)
         {
-            foreach (var child in instance.transform.GetComponentsInChildren<Slider>())
+            foreach (var child in __instance.transform.GetComponentsInChildren<Slider>())
             {
                 DysonsGalaxy.Log($"Setting min star count to {DysonsGalaxyConfig.MinStarCount}");
                 DysonsGalaxy.Log($"Setting max star count to {DysonsGalaxyConfig.MaxStarCount}");
